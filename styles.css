@@ -36,8 +36,9 @@ grid-row: 1/3;}
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     background-color: orange;
-gap: 15px;
-padding: 40px 15px 40px 15px;}
+      /* gap:1.5rem;  */
+    /* padding: 1.5rem 1.5rem 1.5rem 1.5rem;  */
+}
 
 
 .anns-plus-trending
@@ -61,11 +62,51 @@ ul
 
 .proj,
 .announcements p
-{border: 1px solid black;}
+/* {padding-bottom: 0.5rem;  */
+{background-color: purple;
+    border: 1px solid black;}
 
 
-li:first-child {
+/* .svg {
     display: grid;
-    grid-template-rows: auto 1fr;
-    align-items: center;
-    background-color: red;}
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 5fr;
+    align-items:end;
+    background-color: red;} */
+
+
+    .proj
+     {padding: 2rem; 
+    border-radius: 8px;
+    width: 22rem;
+border-left: 0.8rem solid black;
+}
+
+    .proj-icons
+    {display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+   /* background-color: blue;  */
+   margin-left: 7rem;
+   margin-top: 2rem;
+  justify-items: end;
+  justify-content: end;
+  height: 2rem;
+ 
+}
+
+.proj p:last-child
+{
+    padding-bottom: 2rem;
+width: 16rem;
+}
+
+svg {
+    height: 2rem;
+    
+    1px black solid;
+} 
+
+    .proj-header
+    {font-weight: bold;}
+
+
