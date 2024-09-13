@@ -166,12 +166,57 @@ align-self:self-start ;}
     align-self:self-end ;}
 
 
-    .header-bottom-right div{
-
-        background-color: aliceblue;
-    }
 
     .header-top-right-text
     {align-self: center;}
 
 
+   button {padding: 5px 12px;
+    border-radius: 1rem;}
+
+
+
+.sidebar-list-item,
+.sidebar p
+{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    align-items: center;
+}
+
+
+.sidebar-text
+{align-self:flex-start;
+    margin-top: 5px;
+margin-left: 0;
+padding-left: 0;}
+
+
+a {margin-left: 0;}
+
+
+img
+{align-self: flex-start;
+    height: 3rem;
+
+padding: 0;
+margin: 0;
+height: 1.5rem;}
+
+.sidebar-list-icon-dashboard
+{height: 2.5rem ;
+justify-self: center;}
+
+
+
+
+ul
+{margin-top: 4rem
+    ;}
+
+    li {margin-top: 1rem;
+    margin-left: 2rem;}
+
+.sidebar p
+    {margin-top: 1rem;
+        margin-left: 2rem;}
