@@ -12,9 +12,9 @@
 
 --darkBlue:#1e3a8a;
 --projectsBlue:#bfdbfe;
---projLeftBorder: #991b1b;
+--projLeftBorder: #be185d;
 --inputGray: #d4d4d4;
---boxShadow: #a3a3a3;
+--boxShadow: #93c5fd;
 
 
 
@@ -173,6 +173,10 @@ width: 16rem;
 .header
 {display: grid;
     padding: 1.5rem 0 1.5rem 2rem;
+    box-shadow: 0px 4px 2px var(--boxShadow);
+    position: relative;
+z-index: 10;
+    
 }
 
 .header-top-left
