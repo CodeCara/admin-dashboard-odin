@@ -337,18 +337,6 @@ ul
         /* border: 1px solid black; */
     }
 
-    .announcement1,
-    .announcement2
-    {
-        border-bottom-width: 2rem;
-        border-bottom-color: black;    
-        border-bottom-width: 1px;
-        border-bottom-style: solid;
-
-
-
-
-    }
 
     .announcement1{
     padding: 1.2rem 1.2rem 1.2rem 1rem;}
@@ -369,7 +357,8 @@ ul
 
     .announcements
     {display: grid;
-        grid-template-rows: 1fr 1fr 1fr;
+        /* grid-template-rows: 1fr 1fr 1fr; */
+        grid-template-rows: 42fr 1fr 42fr 1fr 42fr;
         /* border: 1px solid black; */
         border-radius: 8px;
     background-color: white;
@@ -407,7 +396,7 @@ grid-template-rows: 1fr 2fr;} */
 
     .trending1
 
-{margin-top: 0.8rem;}
+{margin-top: 0.9rem;}
 
 .projs-and-announcements
 {display: grid;
@@ -444,3 +433,8 @@ margin-top: 1.7rem;
 
     .header-bottom-left-text-container
     {align-self: center;}
+
+    hr {width:90%;
+    height: 1px;
+    margin: auto;
+color: var(--boxShadow);}
